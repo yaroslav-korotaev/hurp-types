@@ -1,0 +1,30 @@
+{
+  "name": "hurp-types",
+  "version": "0.0.0",
+  "description": "Common type definitions for hurp ecosystem",
+  "keywords": [
+    "hurp",
+    "types"
+  ],
+  "bugs": "https://github.com/yaroslav-korotaev/hurp-types/issues",
+  "license": "MIT",
+  "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": "yaroslav-korotaev/hurp-types",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "ts-node": "^7.0.0",
+    "tslint": "^5.10.0",
+    "tslint-config-hurp": "^1.0.0",
+    "typescript": "^2.9.2"
+  }
+}
